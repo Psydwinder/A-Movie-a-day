@@ -16,3 +16,4 @@ User stories
 Stretch goal
 - [ ] The user should have their activity saved to local storage so that they can come back and it doesn't reset the doors that have already been opened
 - [ ] User needs to see an animation when the door is opened
+- [ ] Add animations for each month, the animation should align with the theme for that month
