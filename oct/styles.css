@@ -3,6 +3,7 @@
     padding: 0;   
    }
 
+ 
 body {
        font-family: Arial, sans-serif;
        background-color: #2c3e50;
@@ -14,6 +15,7 @@ body {
        padding: 2rem 0;
        box-sizing: border-box;
        overflow-y: auto; /* Allow scrolling if needed */
+       flex-direction: column;
    }
 
    body h1{
@@ -21,6 +23,42 @@ body {
     padding: 2rem 0;
     justify-content: center;
     
+   }
+
+   .title-container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+   }
+
+   .title{
+    color: #fff;
+    font-size: 2.5rem;
+   }
+
+   .subtitle{
+    color: #fff;
+    font-size: 1rem;
+    margin: -10px 0 10px 0;
+    font-weight: 100;
+    
+   }
+
+   .separator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .icon{
+    padding: 0 30px;
+   }
+
+   .lines{
+    width:375px;
+    height: 2px;
+    background: white;
    }
 
    .back-button {
@@ -50,7 +88,7 @@ body {
        grid-template-columns: repeat(4, 1fr);
        grid-gap: 20px;
        max-width: 1000px;
-       padding-top: 100px;
+       padding-top: 50px;
    }
    
    /* Adjust door size to better showcase the poster */
