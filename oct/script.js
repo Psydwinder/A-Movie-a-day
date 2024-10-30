@@ -162,3 +162,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 });
+
+document.getElementById('backToMonthSelector').addEventListener('click', function() {
+    window.location.href = '../index.html'; // Replace 'month_selector.html' with the actual URL
+});
